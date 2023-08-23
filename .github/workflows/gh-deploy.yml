@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: 16
           #cache: npm
+      #
       - run: npm i
       - name: Build
         run: npm run docs:build
@@ -29,6 +30,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v1
         with:
           path: docs/.vitepress/dist
+      #
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
