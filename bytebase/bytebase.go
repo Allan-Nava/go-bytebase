@@ -4,6 +4,8 @@ import (
 	"github.com/go-resty/resty/v2"
 )
 
+// https://www.bytebase.com/docs/api/sql-advise/ api documentation
+
 type byteBase struct {
 	Url        string
 	debug      bool
