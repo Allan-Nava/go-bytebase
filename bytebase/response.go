@@ -1,4 +1,4 @@
-package byteBase
+package bytebase
 
 /*
 [
