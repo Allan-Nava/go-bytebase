@@ -1,7 +1,7 @@
 {
     "name": "go-bytebase-gh",
     "version": "1.0.0",
-    "description": "",
+    "description": "go bytebase",
     "keywords": [
         "bytebase"
     ],
