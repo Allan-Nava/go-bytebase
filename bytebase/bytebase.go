@@ -13,8 +13,10 @@ type byteBase struct {
 }
 
 type IByteBaseClient interface {
+	//
 	IsDebug() bool
 	HealthCheck() error
+	//
 }
 
 func (o *byteBase) HealthCheck() error {

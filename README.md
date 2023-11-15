@@ -12,3 +12,5 @@ Go-Bytebase is an open-source project aimed at providing a simple and efficient 
 - Simple API: The API is designed to be intuitive and easy to use. With just a few lines of code, you can store, retrieve, and delete data.
 
 - Customizable: Go-Bytebase allows you to specify various options such as file location, maximum file size, and more to customize its behavior to your application's needs.
+
+[Documentation](https://www.bytebase.com/docs/api/sql-advise/)
